@@ -1,0 +1,49 @@
+.logo {
+    background-image:url("../../images/logo/I-Santos Dev.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.background {
+    background-image:url("../../images/logo/wallpaper.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    width: 100%;
+} 
+.social{
+    color:#C2C6DE;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom:-5px;
+    margin-top:15px;
+    text-align: center;
+
+}
+.footer-item a:hover {
+    cursor: pointer;
+}
+.cartao {
+    -webkit-transition: width 1s ease 2s, -webkit-transform 0.5s; /* Safari */
+    -moz-transition: width 1s ease 2s, -moz-transform 0.5s; 
+    transition: width 1s ease 2s, transform 0.5s;
+    max-width:240px;
+    width:100%; 
+}
+.cartao:hover {
+    -moz-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+.box {
+    width:80px;
+    text-align: center;
+    font-size: 13px; 
+}
+.card-title {
+    text-align: center;
+}
